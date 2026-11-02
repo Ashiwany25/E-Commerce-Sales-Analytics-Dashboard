@@ -67,6 +67,60 @@ E-commerce Sales Analytics Dashboard/
 └── README.md
 ```
 
+## 🏗️ Project Architecture
+
+```text
+Olist E-Commerce Dataset (9 CSV files)
+                |
+                v
+        Data Exploration
+      src/explore_data.py
+                |
+                v
+        Data Integration
+       src/merge_data.py
+                |
+                v
+    Cleaning and Validation
+  src/data_cleaning.py
+  src/validate_data.py
+                |
+                v
+      Processed Sales Data
+                |
+       +--------+--------+
+       |                 |
+       v                 v
+   MySQL Database    Python Analytics
+   SQL Queries       Pandas + Plotly
+       |                 |
+       +--------+--------+
+                |
+                v
+      Streamlit Dashboard
+             app.py
+                |
+                v
+      Streamlit Cloud Deployment
+
+Data Processing Workflow
+
+1. Data Exploration: Inspect the source datasets, understand their structure, and identify missing values and data quality issues.
+
+2. Data Integration: Merge related order, customer, product, and seller information into a consolidated analytical dataset.
+
+3. Data Cleaning: Prepare delivered-order records, handle missing values, convert date columns, and calculate revenue and delivery metrics.
+
+4. Data Validation: Check data consistency, duplicate records, and essential business metrics before analysis.
+
+5. SQL Analysis: Load sales and payment information into MySQL and execute SQL queries to explore revenue, products, customers, and operations.
+
+6. Exploratory Data Analysis: Use Pandas, Matplotlib, and Seaborn to investigate sales patterns and generate report visualizations.
+
+7. Interactive Dashboard: Use Streamlit and Plotly to present filtered KPIs, sales trends, customer analytics, regional performance, and delivery insights.
+
+8. Deployment and Testing: Run Pytest checks and deploy the dashboard on Streamlit Community Cloud using deployment-ready CSV files.
+
 ## 📈 Dashboard Sections
 
 ### 1. Sales Overview
