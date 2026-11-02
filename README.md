@@ -121,6 +121,44 @@ Data Processing Workflow
 
 8. Deployment and Testing: Run Pytest checks and deploy the dashboard on Streamlit Community Cloud using deployment-ready CSV files.
 
+## 🗄️ SQL Business Analysis
+
+MySQL was used to explore the consolidated sales and payment datasets and answer business questions through SQL queries.
+
+### Business Questions
+
+- How much revenue did the business generate?
+- How did monthly revenue and order volume change over time?
+- Which product categories generated the most revenue?
+- Which Brazilian states contributed the most sales?
+- How frequently did customers make repeat purchases?
+- How did delivery performance compare with estimated delivery dates?
+- Which payment methods were most commonly used?
+
+### SQL Techniques
+
+- `SELECT`, `WHERE`, `GROUP BY`, and `ORDER BY`
+- Aggregate functions: `SUM()`, `COUNT()`, `AVG()`
+- `JOIN` operations for combining relational tables
+- Date-based aggregation for monthly trends
+- Business KPI calculations
+
+SQL scripts are available in the [`sql/` directory](sql/).
+
+## 📌 Key Business Insights
+
+The cleaned analytical dataset contains **110,197 order-item records**, representing **96,478 unique orders** and **93,358 unique customers**.
+
+| Metric | Value |
+|---|---:|
+| Unique Orders | 96,478 |
+| Unique Customers | 93,358 |
+| Order-Item Records | 110,197 |
+| Product Sales Revenue | R$13,221,498.11 |
+
+**Interpretation:** These figures describe the cleaned, delivered-order dataset used for analysis. Product sales revenue excludes freight charges. The dashboard supports deeper investigation through date, state, and category filters.
+
+**Important:** The analytical dataset is at order-item level, so order counts and customer counts must use distinct identifiers to avoid double-counting.
 ## 📈 Dashboard Sections
 
 ### 1. Sales Overview
