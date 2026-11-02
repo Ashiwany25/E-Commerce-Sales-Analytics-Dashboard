@@ -83,6 +83,31 @@ Analyzes customer purchase frequency and repeat purchasing behavior.
 ### 5. Operations Analytics
 Examines delivery performance and payment method trends.
 
+## 📸 Dashboard Visualizations
+
+Explore the interactive dashboard: **[Live Demo](https://ashiwany-ecommerce-dashboard.streamlit.app/)**
+
+### 📈 Monthly Revenue Trend
+![Monthly Revenue Trend](assets/monthly_revenue.png)
+
+### 📊 Monthly Sales Growth
+![Monthly Sales Growth](assets/monthly_sales_growth.png)
+
+### 🛍️ Top 10 Product Categories
+![Top 10 Product Categories](assets/top_10_categories.png)
+
+### 🌎 State-wise Revenue
+![State-wise Revenue](assets/state_wise_revenue.png)
+
+### 👥 Customer Purchase Frequency
+![Customer Purchase Frequency](assets/customer_purchase_frequency.png)
+
+### 🚚 Delivery Performance
+![Delivery Performance](assets/delivery_performance.png)
+
+### 💳 Payment Methods
+![Payment Methods](assets/payment_methods.png)
+
 ## 📊 Dataset
 
 **Source:** [Brazilian E-Commerce Public Dataset by Olist — Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
