@@ -1,4 +1,11 @@
 # 🛒 E-Commerce Sales Analytics Dashboard
+
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit&logoColor=white)](https://ashiwany-ecommerce-dashboard.streamlit.app/)
+[![MySQL](https://img.shields.io/badge/MySQL-Analytics-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Plotly](https://img.shields.io/badge/Plotly-Visualizations-3F4F75?logo=plotly&logoColor=white)](https://plotly.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-Source_Code-181717?logo=github&logoColor=white)](https://github.com/Ashiwany25/E-Commerce-Sales-Analytics-Dashboard)
+
 **🚀 [Live Dashboard](https://ashiwany-ecommerce-dashboard.streamlit.app/)** | **💻 [GitHub Repository](https://github.com/Ashiwany25/E-Commerce-Sales-Analytics-Dashboard)**
 
 An interactive Business Intelligence dashboard built using **Python, Pandas, Plotly, Streamlit, and MySQL** to analyze sales performance, customer behavior, product categories, regional revenue, and delivery operations.
