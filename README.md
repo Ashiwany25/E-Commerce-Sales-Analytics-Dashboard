@@ -1,4 +1,5 @@
 # 🛒 E-Commerce Sales Analytics Dashboard
+**🚀 [Live Dashboard](https://ashiwany-ecommerce-dashboard.streamlit.app/)** | **💻 [GitHub Repository](https://github.com/Ashiwany25/E-Commerce-Sales-Analytics-Dashboard)**
 
 An interactive Business Intelligence dashboard built using **Python, Pandas, Plotly, Streamlit, and MySQL** to analyze sales performance, customer behavior, product categories, regional revenue, and delivery operations.
 
@@ -128,8 +129,8 @@ The dataset contains order, customer, product, payment, and delivery information
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/Ashiwany25/E-Commerce-Sales-Analytics-Dashboard.git
+cd E-Commerce-Sales-Analytics-Dashboard
 ```
 
 Replace the placeholders with your actual GitHub repository details after publishing.
